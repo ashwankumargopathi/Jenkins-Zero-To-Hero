@@ -14,7 +14,7 @@ pipeline {
 
         stage('Create a file') {
             steps {
-                sh 'touch abc.txt'
+                sh 'touch /home/ubuntu/abc.txt'
             }
         }
     }
